@@ -1,0 +1,389 @@
+#home-page-texto {
+    color: greenyellow;
+    background-color: white;
+    align-items: "center";    
+}
+#footer-child1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-left: -120px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#footer{
+    background-color: #001932;
+    height: 150px;
+    padding: 30px;
+}
+
+
+.footer-element-father{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-element-clild{
+    margin-left: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#parte-izquierda{
+    text-align: center;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+#foto-playlist {
+    height: 250px;
+    width: 50%;
+    background-size: cover;
+    border-radius: 3px;
+
+}
+#foto-playlist2 {
+    height: 100px;
+    width: 50%;
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 80px;
+
+}
+#div-foto-playlist{
+    width: 50%;
+}
+.div-primera-seccion {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 30px;
+
+
+}
+.parrafo-parte-izquierda{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 15px;
+    font-weight: 540;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.parrafo-parte-izquierda-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    font-weight: 549;
+}
+.boton{
+    padding: 10 px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    border-width: 0.1px;
+    margin-top: 20px;
+}
+#menu{
+    z-index:99999; 
+    padding-top: 10px;
+    width: 100%;
+    background-color: #001932;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin: 0px;
+
+}
+#logo{
+    margin-top: 20px;
+}
+#parte-menu1{
+    width: 30%;
+    text-align: center;
+    color: white;
+
+}
+#parte-menu2{
+    width: 30%;
+    text-align: center;
+    color: white;
+
+}
+#parte-menu3{
+    margin-top: 20px;
+    width: 33%;
+    text-align: center;
+    color: white;
+    flex-direction: row;
+    display: flex;
+
+}
+.div-primera-seccion-padre{
+    border-radius: 30px;
+    background-color: #ebebeb;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.div-primera-seccion-padre2{
+    border-radius: 30px;
+    background-color: #ebebeb;
+    padding-bottom: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+#texto-video{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.texto-video{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 460px;
+    margin-bottom: 30px;
+}
+.separador{
+    height: 110px;
+    width: 40px;
+}
+#separador-grande{
+    height: 500px;
+}
+.linea-separador{
+    width: 80%;
+    background-color: lightgrey;
+    height: 0.1px;
+    margin: 62px;
+    margin-left: 100px;
+
+}
+#primer-separador{
+    height: 200px;
+}
+.boton-menu{
+    height: 50px;
+    width: 50px;
+    border-color: lightgrey;
+    border-width: 2px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 20px;
+}
+.texto-footer{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 4px;
+
+}
+#div-presentacion{
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+body{
+    justify-content: center;
+}
+#texto-presentacion{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 524;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+#seccion-pasos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.div-seccion-pasos{
+    background-color: #ebebeb;
+    width: 25%;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+
+}
+.div-seccion-pasos:hover{
+    background-color: #d0d0d0;
+    width: 25%;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+
+}
+#titulo-seccion-pasos{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.texto-seccion-pasos{
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h2-seccion-pasos{
+    margin-top: 40px;
+}
+header {
+    background: #001932;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  nav ul li a {
+    display: block;
+    margin-top: -10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    color: rgb(116, 115, 115);
+  }
+  .white-icon{
+    color: white;
+  }
+  .icon-size{
+    font-size: 23px;
+  }
+
+  .h1-idiomas{
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    padding-right: 10px;
+  }
+
+  .separar-izquierda{
+    margin-left: 480px;
+  }
+  .div-artista{
+    border-radius: 20px;
+    border-width: 1px;
+    background-color: #ebebeb;
+    height: 300px;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  #artistas{
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  .artistas2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-bottom: 60px;
+
+  }
+  #div-titulo-artistas{
+    text-align: center;
+
+  }
+  .foto-perfil{
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .nombre-usuario{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .descripicion-usuario{
+    font-size: 11px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #formulario{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  }
+  .textos-register{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  .div-formulario-child{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 30px;
+}
+  #div-bloque{
+    background-color: #ebebeb;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+  }
+  .elemento-formulario{ 
+    margin-bottom: 45px;
+  }
+  #crear-usuario{
+    margin-left: 240px;
+    width: 150px;
+    color: black;
+  }
+  .extra{
+    margin-bottom: 30px;
+
+  }
+  
